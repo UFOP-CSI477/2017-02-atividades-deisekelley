@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Atividade1 Web</title>
+
+    <link href="pagina.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.css">
+
+
+  </head>
+  <body>
+     <img src="ufoplogo.jpg" width="100%" height="100%"/>
+     <nav class="navbar navbar-light" style="background-color: #8B1A1A;">
+       <div class="container">
+         <div class="navbar-header">
+           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+             <span class="sr-only">Toggle navigation</span>
+             <span class="icon-bar"></span>
+           </button>
+         </div>
+         <div id="navbar" class="collapse navbar-collapse">
+           <ul class="nav navbar-nav">
+             <li><a href="index.html">Voltar</a></li>
+           </ul>
+         </div><!--/.nav-collapse -->
+       </div>
+     </nav>
+
+
+  <div id="divCentermatricula">
+  <form action="#" method="post">
+   <fieldset>
+    <fieldset class="grupo">
+     <div class="campo">
+       <div id="ano">
+         <label for="ano">Ano</label>
+         <select name="ano"> <!-- Só marca uma unica opção, igual o radio -->
+         <option value="0" selected="true">Selecione: </option>            <!-- AJAX= se tivesse um campo cidade, ele so apareceria se uma cidade fosse escolhida.-->
+         <option value="1">2012 </option>
+         <option value="2">2013 </option>
+         <option value="3">2014 </option>
+         <option value="4">2015 </option>  <!-- O selected serve pra qando usarmos o limpar,dai ele volta como padrao-->
+         <option value="5">3026 </option>
+       </select>
+     </div>
+   </div>
+
+   <div class="campo">
+   <div id="semestre">
+     <label for="semestre">Semestre</label>
+     <select name="semestre"> <!-- Só marca uma unica opção, igual o radio -->
+     <option value="0" selected="true">Selecione: </option>            <!-- AJAX= se tivesse um campo cidade, ele so apareceria se uma cidade fosse escolhida.-->
+     <option value="1">1 </option>
+     <option value="2">2 </option>
+   </select>
+ </div>
+</div>
+  </fieldset>
+
+   <fieldset class="grupo">
+    <div class="campo">
+      <div id="aluno">
+        <label for="aluno">Ano</label>
+        <select name="aluno"> <!-- Só marca uma unica opção, igual o radio -->
+        <option value="0" selected="true">Selecione: </option>            <!-- AJAX= se tivesse um campo cidade, ele so apareceria se uma cidade fosse escolhida.-->
+        <option value="1">Graduacao </option>
+        <option value="2">Mestrado </option>
+        <option value="3">Doutorado </option>
+      </select>
+    </div>
+  </div>
+</fieldset>
+
+<fieldset class="grupo">
+ <div class="campo">
+   <div id="disciplina">
+     <label for="disciplina">Disciplina</label>
+     <select name="disciplina"> <!-- Só marca uma unica opção, igual o radio -->
+     <option value="0" selected="true">Selecione: </option>            <!-- AJAX= se tivesse um campo cidade, ele so apareceria se uma cidade fosse escolhida.-->
+     <option value="1">WEB1 </option>
+     <option value="2">Fundamentos Teoricos da computação </option>
+     <option value="3">Projeto e Analise de Algoritmos </option>
+   </select>
+ </div>
+</div>
+</fieldset>
+
+<fieldset class="grupo">
+  <div class="campo">
+    <label> Aluno </label>
+      <label>
+          <input type="radio" name="aluno" value="regular"> Regular
+      </label>
+      <label>
+          <input type="radio" name="aluno" value="ouvinte"> Ouvinte
+      </label>
+  </div>
+  </fieldset>
+
+  <fieldset class="grupo">
+     <div class="campo">
+       <input type="button" onClick="window.open('sucessoMatricula.html')" value="Enviar">
+    </div>
+       <div class="campo">
+       <input type="reset" value= "Limpar">
+     </div>
+
+  </fieldset>
+
+  </fieldset>
+
+</div>
+     <footer class="footer">
+       <div class="container">
+         <p>  Universidade Federal de Ouro Preto, Deise Kelley Silva, 12.2.8131, daysekelley@live.com</p>
+       </div>
+     </footer>
+   </body>
+
+  </html>
